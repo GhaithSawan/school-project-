@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: "Cairo", sans-serif;
+}
+button {
+  outline: none;
+  border: none;
+}
+a {
+  text-decoration: none !important;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(45deg, rgba(231, 157, 22, 1) 0%, #faf7c2 100%);
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(45deg, #e79d16 0%, rgba(250, 247, 194, 1) 100%);
+}
+.page {
+  height: max-content;
+  min-height: 70vh;
+}
+.app {
+  background-color: #ffff;
+}
+.subjects li {
+  padding-top: 15px;
+  transition: 0.8s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  list-style: none;
+  cursor: pointer;
+}
+.subjects a {
+  color: black;
+}
+.subjects li a:hover {
+  color: #ebb026 !important;
+}
+.navbar button {
+  transition: 0.4s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.navbar button:hover {
+  background-color: #e8b94b !important;
+}
+.subjects details li {
+  padding-right: 15px;
+}
+/* background-image: url(./images/mainMan.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ */
+/*  */
+.imgcard {
+  width: 70% !important;
+  height: 70% !important;
+}
+.CardImg {
+  width: 140px !important;
+  height: 140px !important;
+  overflow: hidden !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
